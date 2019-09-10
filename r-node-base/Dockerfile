@@ -16,5 +16,3 @@ RUN R -e 'install.packages("jsonlite")'
 CMD node server.js
 
 EXPOSE 4000
-
-
