@@ -19,7 +19,6 @@ function postRunner(req, res) {
 
 
 function getRunner(req, res) {
-
     modelService.runModel(req.body).then(results => {
         res.send(results);
     });

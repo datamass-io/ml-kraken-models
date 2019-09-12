@@ -22,6 +22,6 @@ diamond$cut <- unname(cuts[diamond$cut])
 diamond$color <-unname(colors[diamond$color])
 diamond$clarity <- unname(clarities[diamond$clarity])
 
-model <- readRDS("/Users/jwszol/Documents/workspace-git/ml-kraken-models/r-node-diamonds/r-scripts/models/randomForestThin.rds")
+model <- readRDS("./r-scripts/models/randomForestThin.rds")
 final_predictions <- predict(model, diamond) %>% toJSON() %>% cat()
 
