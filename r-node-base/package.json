@@ -1,8 +1,8 @@
 {
-    "name": "r-exen",
+    "name": "r-node-base",
     "version": "0.1.0",
     "description": "exen",
-    "author": "jwszol",
+    "author": "j.wszolek@datamass.io",
     "main": "index.js",
     "scripts": {
         "test": "grunt test",
