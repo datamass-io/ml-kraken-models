@@ -11,8 +11,8 @@ module.exports = {
 function runModel(inputData) {
 
     let modelData = inputData.modelData;
-    let metaData = inputData.metaData;
-    
+    let metaData = (inputData.metaData);
+
     let actionId = uuid.v1();
 
     return new Promise((resolve, reject) => {

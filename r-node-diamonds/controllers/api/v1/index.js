@@ -7,7 +7,7 @@ var modelService = require('../../../services/run-model.service');
 
 module.exports = function (router) {
     router.get('/',getRunner);
-    router.post('/',postRunner);
+    router.post('/run-model',postRunner);
 }
 
 
