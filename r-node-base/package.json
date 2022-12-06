@@ -16,7 +16,7 @@
         "construx-dustjs": "^1.1.0",
         "dust-makara-helpers": "^4.2.0",
         "eslint": "^1.10.3",
-        "express": "^4.12.2",
+        "express": "^4.18.2",
         "cors": "^2.8.5",
         "kraken-js": "^2.0.0",
         "makara": "^2.0.3",
@@ -36,7 +36,7 @@
         "grunt-makara-amdify": "^1.0.1",
         "grunt-mocha-cli": "^1.14.0",
         "mocha": "^1.18.0",
-        "supertest": "^0.9.0"
+        "supertest": "^6.3.2"
     },
     "browserPackage": {
         "overrides": {
